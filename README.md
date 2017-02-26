@@ -1,6 +1,6 @@
 # QRCodeScanner
 
-## Want to scan QR-Code in _Android_ :relieved: ? Here is a easiest way to scan qr-code. Just use this Android library, library is made on top of *Google Mobile Vision  API*
+Want to integrate QR-Code scanner in _Android_ :kissing_heart: ? Here is a easiest way to scan qr-code. Just use this Android library, library is made on top of *Google Mobile Vision  API*
 
 
 ## Simple Usages
@@ -11,7 +11,7 @@
 2) pass Actvity/Fragment context
 
 
-      new ScanQRCode(cameraView, context, new ScanQRCode.OnScanQRCode()
+      new ScanQRCode(surfaceView, context, new ScanQRCode.OnScanQRCode()
       {
            @Override
            public void onScanResult(String result) 
