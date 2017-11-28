@@ -10,7 +10,7 @@ Want to integrate QR-Code scanner in _Android_ :kissing_heart: ? Here is a easie
 
 2) pass Actvity/Fragment context
 
-'''
+```
       new ScanQRCode(surfaceView, context, new ScanQRCode.OnScanQRCode()
       {
            @Override
@@ -20,4 +20,4 @@ Want to integrate QR-Code scanner in _Android_ :kissing_heart: ? Here is a easie
                
            }
       );
-'''
+```
